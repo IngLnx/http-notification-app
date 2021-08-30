@@ -1,0 +1,28 @@
+{
+  "name": "http-notification-app",
+  "version": "1.0.0",
+  "description": "======= HTTP Notification App =======",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -L ./index.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "got": "^11.8.2",
+    "mongodb": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
