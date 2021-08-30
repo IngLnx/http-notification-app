@@ -1,0 +1,5 @@
+# Template app config
+# Make a copy of this file and rename to .test.env to get 'test' ENV file
+APP_DB_URI=mongodb://<dbUser>:<dbPassword>@<dbHost>:<dbPort>/<dbName>
+APP_DB_NAME=<dbName>
+APP_PORT=5050
